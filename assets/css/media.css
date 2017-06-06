@@ -1,1 +1,20 @@
-media.css
+@media only screen and (min-width: 535px) and (max-width: 1200px) {
+	header {
+		width: 100%;
+	}
+	body { 
+		width: 100%
+	}
+}
+
+@media(min-width: 200px) and (max-width: 534px) {
+	.menu {
+		display: none;
+	}
+	.menupequenio{
+		display: inline-block; 
+	}
+	.menupequenio a{
+		font-family: 'Oswald', sans-serif;
+	}
+}
