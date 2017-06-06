@@ -73,19 +73,22 @@
 	position: absolute;
 	background-color: black;
 	min-width: 300px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+	
 	z-index: 1;
 }
 
-.dropdown i{
+.fa{
 	color: white;
+	width: 10%;
+}
+
+.dropdown-content{
+	margin-left: -30px;
 }
 .dropdown-content a {
 	color: black;
 	padding: 12px;
 	text-decoration: none;
-	display: flex;
-	text-align: center;
 }
 
 .dropdown-content a:hover {
