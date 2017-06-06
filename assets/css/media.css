@@ -9,12 +9,52 @@
 
 @media(min-width: 200px) and (max-width: 534px) {
 	.menu {
-		display: none;
+		background-color: black;
+		width: auto;
+		height: 100%;
 	}
-	.menupequenio{
+
+	.menu.flex-container{
+		justify-content: flex-start;
+		flex-direction: column;
+	}
+	.menu ul{
+		display: flex;
+		flex-direction: column;	
+	}
+	.menu ul li #menuOculto{
+		font-size: 25px;
+		text-decoration: none;
+		color: white;
+
+	}
+	.menu ul li a{
+		font-size: 20px;
+		text-decoration: none;
+		color: white;
+	}
+	.menu ul li a{
+		border-bottom: 2px solid #6B6B6B;
+		padding: 0;
+		border-right: 0px solid rgba(0,0,0,0.0);
+		margin-bottom: 10px;
+	}
+	.menu #menuOculto{
+		cursor: pointer;
+	}
+	/*.menupequenio{
 		display: inline-block; 
 	}
 	.menupequenio a{
 		font-family: 'Oswald', sans-serif;
+	}*/
+
+
+	.hide{
+		display: inline-block;
+	}
+	/*oculto menu anterior*/
+	.hiden{
+		display: none;
 	}
 }
